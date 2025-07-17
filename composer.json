@@ -1,17 +1,17 @@
 {
-    "name": "developerEkramul/license-guard",
+    "name": "developer-ekramul/license-guard",
     "autoload": {
         "psr-4": {
-            "developerEkramul\\LicenseGuard\\": "src/"
+            "developer-ekramul\\LicenseGuard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "developerEkramul\\LicenseGuard\\LicenseServiceProvider"
+                "developer-ekramul\\LicenseGuard\\LicenseServiceProvider"
             ],
             "aliases": {
-                "License": "developerEkramul\\LicenseGuard\\Facades\\License"
+                "License": "developer-ekramul\\LicenseGuard\\Facades\\License"
             }
         }
     }
